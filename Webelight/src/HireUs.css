@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .cards11{
+      height: 20px;
+      justify-content: space-evenly;
+      color: #ffffff;
+      background-color: #f8f8f8;
+      align-items: center;
+      height: 570px;
+      display: flex;
+      justify-content: space-evenly;
+      color: #ffffff;
+      background-color: #f8f8f8;
+      align-items: center;
+      font-size: 1rem;
+  
+  }
+    .cards12{
+        width: 37rem;
+        border-radius: 0.8rem;
+        display: block;
+        border-left-color: aliceblue;
+        background-color: #fff;
+        position: initial;
+        padding: 50px;
+        line-height: 1.5;
+        color: #212529;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 670px;
+        text-align: center;
+        margin-left: 5px;
+        display: inline-block;
+        align-content: center;
+        block-size: 35px 35px;
+        font-size: large;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+      } 
+  
+    .kab-ka1{
+      height: 8%;
+      width: 15%;
+      align-content: flex-end;
+      height: auto;
+      margin: 0 0 0 0;
+      margin-top: 15px;
+    }
+  
+  
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  
+    .cards11 .cards12 h1{
+      color: #3c455b;
+      font-size: 1.6rem;
+      margin: 0 0 0 0;
+      margin-top: 20px;
+    }
+  
+    .cards11 .cards12 p{
+      color: #807980;
+      font-size: 1.12rem;
+      margin: 0 0 0 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .cards11 .cards12 button{
+      padding: .4rem 1.3rem;
+      font-size: 1rem;
+      height: 2.6rem;
+      font-weight: bold;
+      color: #fff;
+      background-color: #488ecb;
+      border-color: #488ecb;
+      border-radius: 30px;
+    }
+    
+    
+  .cards12::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid #204463;
+    border-left: 18px solid transparent;
+    margin-top: -68.5px;
+    margin-left: -206px;
+    transform : rotate(0deg);
+  }
+  
+  .cards12::after{
+        width: 35rem;
+        display: block;
+        border-left-color: aliceblue;
+        background-color: #fff;
+        position: absolute;
+        color: #212529;
+        max-width: 650px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        block-size: 20px 20px;
+        font-size: large;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        content: 'Hire Developer';
+        padding: 0.5rem;
+        width: 8rem;
+        background: #488ecb;
+        color: white;
+        text-align: center;
+        margin: 0 0 0 0;
+        margin-top: -393px;
+        margin-left: -284px;
+      }
+  
+  
+      @media screen and (max-width: 960px) {
+        *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+        .cards11{
+          display: block;
+          width: 100%;
+          height: 800%;
+          box-sizing: border-box;
+          background-color:#f8f8f8;
+          color: #212529;
+          text-align: center;
+          padding-left: 70px;
+          padding-right: 70px;
+          padding-bottom: 40px;
+          padding-top: 20px;
+          
+        
+        }
+          .cards12{
+              display: block;
+              width: 100%;
+              height: 140%;
+              border-radius: 0.8rem;
+              border-left-color: aliceblue;
+              background-color: #fff;
+              position: initial;
+              padding: 38.5px;
+              line-height: 1.5;
+              color: #212529;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              max-width: 100%;
+              text-align: center;
+              margin-left: 0px;
+              display: inline-block;
+              align-content: center;
+              margin: 0 0 0 0;
+              margin-bottom: 50px;
+            
+          }
+        
+          .kab-ka1{
+            height: 8%;
+            width: 15%;
+            align-content: flex-end;
+            height: auto;
+            margin: 0 0 0 0;
+            margin-top: 15px;
+          }
+        
+          .cards11 .cards12 h1{
+            color: #3c455b;
+            font-size: 1.6rem;
+            margin: 0 0 0 0;
+            margin-top: 20px;
+          }
+        
+          .cards11 .cards12 p{
+            color: #807980;
+            font-size: 1.12rem;
+            margin: 0 0 0 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .cards11 .cards12 button{
+            padding: .4rem 1.3rem;
+            font-size: 1rem;
+            height: 2.6rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #488ecb;
+            border-color: #488ecb;
+            border-radius: 30px;
+          }
+          
+          
+        .cards12::before{
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          border-bottom: 20px solid #204463;
+          border-left: 18px solid transparent;
+          margin-top: -58.5px;
+          margin-left: -83px;
+          transform : rotate(0deg);
+        }
+        
+        .cards12::after{
+              display: none;
+            }
+        
+    }
+
+
+    
+    @media screen and (max-width: 1210px) {
+        .cards12{
+            width: 30rem;
+            border-radius: 0.8rem;
+            display: block;
+            border-left-color: aliceblue;
+            background-color: #fff;
+            position: initial;
+            padding: 50px;
+            line-height: 1.5;
+            color: #212529;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 670px;
+            text-align: center;
+            margin-left: 5px;
+            display: inline-block;
+            align-content: center;
+            block-size: 35px 35px;
+            font-size: large;
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            
+          } 
+
+          .cards12::before{
+            display: none;
+          }
+          
+          .cards12::after{
+                display: none;
+              }
+
+    }
+  
+    @media screen and (max-width: 667px) {
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .cards11{
+        display: block;
+        width: 100%;
+        height: 800%;
+        box-sizing: border-box;
+        background-color:#f8f8f8;
+        color: #212529;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+      
+      }
+        .cards12{
+            display: block;
+            width: 80%;
+            height: 140%;
+            border-radius: 0.8rem;
+            border-left-color: aliceblue;
+            background-color: #fff;
+            position: initial;
+            padding: 38.5px;
+            line-height: 1.5;
+            color: #212529;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 100%;
+            text-align: center;
+            margin-left: 0px;
+            display: inline-block;
+            align-content: center;
+            margin: 0 0 0 0;
+            margin-bottom: 50px;
+          
+        }
+      
+        .kab-ka1{
+          height: 8%;
+          width: 15%;
+          align-content: flex-end;
+          height: auto;
+          margin: 0 0 0 0;
+          margin-top: 15px;
+        }
+      
+        .cards11 .cards12 h1{
+          color: #3c455b;
+          font-size: 1.6rem;
+          margin: 0 0 0 0;
+          margin-top: 20px;
+        }
+      
+        .cards11 .cards12 p{
+          color: #807980;
+          font-size: 1.12rem;
+          margin: 0 0 0 0;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      
+        .cards11 .cards12 button{
+          padding: .4rem 1.3rem;
+          font-size: 1rem;
+          height: 2.6rem;
+          font-weight: bold;
+          color: #fff;
+          background-color: #488ecb;
+          border-color: #488ecb;
+          border-radius: 30px;
+        }
+        
+        
+        .cards12::before{
+            display: none;
+          }
+          
+          .cards12::after{
+                display: none;
+              }
+      
+  }
+  
+    
+  
+    
+  

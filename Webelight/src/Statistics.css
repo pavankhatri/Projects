@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.StatisticsItems{
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    background-image: linear-gradient(to right,#000535e5 , #4502ff);
+    align-items: center;
+    font-size: 10rem;
+}
+
+.Statistics-logo{
+    display: inline-block;
+    align-content: center;
+    block-size: 30px 30px;
+    font-size: large;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+
+.Statistics-logo h2{
+
+    margin: 0 0 0 0;
+    padding: 21px;
+    background: inherit;
+    font-size: 45px;
+}
+
+.StatisticsItems div.Statistics-logo h3{
+
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+
+    .StatisticsItems {
+        position: inherit;
+        
+    }
+
+    .StatisticsItems{
+        height: 1200px;
+        display: grid;
+        color: #ffffff;
+        background-image: linear-gradient(to right,#000535e5 , #4502ff);
+        align-items: center;
+        font-size: 10rem;
+      }
+   
+    
+    .Statistics-logo{
+        display: inline-block;
+        align-content: center;
+        block-size: 30px 30px;
+        font-size: large;
+        align-items: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        
+    }
+
+  }

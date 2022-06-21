@@ -1,0 +1,32 @@
+.h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+    vertical-align: middle;
+}
+
+.p{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(223, 5, 5);
+}
+
+.h3{
+    text-align: center;
+    text-size-adjust: 12px;
+    color:rgba(24, 9, 9, 0.945);
+    text-decoration-color: darkgreen;
+    text-decoration-style: solid;
+    border-color: blueviolet;
+}
+
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 520px;
+    right: 43%;
+    block-size: 35px;
+    border-color: green;
+    
+}
